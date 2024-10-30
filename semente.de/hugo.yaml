@@ -1,0 +1,61 @@
+baseURL: https://semente.de
+languageCode: en-us
+title: semente.de
+theme: ["PaperMod"]
+env: production
+
+params:
+  disableThemeToggle: true
+  ShowReadingTime: false
+  ShowShareButtons: true
+#  ShowPostNavLinks: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  label:
+    text: ""
+    icon: /img/icon.png
+    iconHeight: 35
+
+#  socialIcons:
+#    - name: x
+#      url: "https://x.com/"
+#    - name: stackoverflow
+#      url: "https://stackoverflow.com"
+#    - name: github
+#      url: "https://github.com/"
+#  cover:
+#    hidden: true # hide everywhere but not in structured data
+#    hiddenInList: true # hide on list pages and home
+#    hiddenInSingle: true # hide on single page
+
+  profileMode:
+    enabled: true
+    subtitle: "Community initiative toolkit."
+    imageUrl: "img/logo.png" # optional
+    imageTitle: "semente.de" # optional
+    imageWidth: 400 # custom size
+    imageHeight: 400 # custom size
+    buttons:
+      - name: About
+        url: "/about"
+      - name: Toolkit
+        url: "/toolkit"
+      - name: Lab
+        url: /lab
+
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/semente-de/documentation"
+    - name: "youtube"
+      url: "https://www.youtube.com/watch?v=KMt-VVZk9-o&list=PLSHdLCc8rAquu46BlqJEdqhrHafv-kIHU&pp=gAQBiAQB"
