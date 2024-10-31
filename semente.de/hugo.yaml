@@ -1,6 +1,6 @@
 baseURL: https://semente.de
 languageCode: en-us
-title: semente.de
+title: semente
 theme: ["PaperMod"]
 env: production
 

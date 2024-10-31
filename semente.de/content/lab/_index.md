@@ -1,10 +1,10 @@
 ---
-title: "Lab"
+title: "semente Lab"
 weight: 3
 draft: false
 hidemeta: false
 comments: false
-description: "WIP"
+description: ""
 #canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -28,4 +28,5 @@ cover:
 #    Text: "Suggest Changes" # edit text
 #    appendFilePath: true # to append file path to Edit link
 ---
-Semente is a toolkit for community initiatives.
+
+semente Lab is our space of experimentation and reflection. In this page you'll find our research notes, thought experiments, musings and fast-paced reporting.

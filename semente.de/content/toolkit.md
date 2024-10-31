@@ -35,4 +35,7 @@ UseHugoToc: true
 #    Text: "Suggest Changes" # edit text
 #    appendFilePath: true # to append file path to Edit link
 ---
-Semente consists of a set of tools and methods to help understand collective processes, resources and dynamics.
+
+semente consists of a set of tools and methods to help understand and act on collective processes, resources and dynamics. It differs from similar methods and frameworks in the way it focuses on a systems view of commonalities and difference, and in the use of circular metaphors inspired by the way diverse communities interpret the world and time.
+
+Developed along several phases of cooperation, semente consists of a playspace and a set of action triggers. Documentation about its releases and past stages can be found on this [GitHub repository](https://github.com/semente-de/documentation/), and current developments can be found in the [Lab](/lab).

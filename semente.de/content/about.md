@@ -35,4 +35,9 @@ cover:
 #    Text: "Suggest Changes" # edit text
 #    appendFilePath: true # to append file path to Edit link
 ---
-Semente is a toolkit for community initiatives. 
+
+semente is a toolkit for community initiatives. Based on decades of experience in open initiatives, collaboratives and transdisciplinary, semente offers concrete ways to create, visualise and improve commons-based action.
+
+- Read more about the toolkit [here](/toolkit).
+
+The first versions of semente were a result of collaboration between activists, designers, nonprofits and researchers in Brazil and Europe. It received support from the University of Bristol.
