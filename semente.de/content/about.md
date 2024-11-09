@@ -6,12 +6,11 @@ weight: 1
 #tags: ["first"]
 #author: "Me"
 #author: ["Me", "You"] # multiple authors
-showToc: true
+showToc: false
 TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-description: "What is semente?"
 #canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -36,8 +35,30 @@ cover:
 #    appendFilePath: true # to append file path to Edit link
 ---
 
-semente is a toolkit for community initiatives. Based on decades of experience in open initiatives, collaboratives and transdisciplinary, semente offers concrete ways to create, visualise and improve commons-based action.
+semente is a toolkit for community development. Based on decades of experience in open initiatives, collaborative actions and transdisciplinary methods, semente offers concrete ways to create, visualise and improve commons-based systems.
 
 - Read more about the toolkit [here](/toolkit).
 
-The first versions of semente were a result of collaboration between activists, designers, nonprofits and researchers in Brazil and Europe. It received support from the University of Bristol.
+The tools and vision created by semente are a result of ongoing collaboration between activists, designers, nonprofits and researchers in Brazil and Europe.
+
+![Semente workshop Ubatuba](https://github.com/semente-de/documentation/blob/main/0.1-2022/images/deck.jpg?raw=true)
+
+{{< columns >}}
+
+## Team
+
+- [Felipe Schmidt Fonseca](https://is.efeefe.me) sees everything through spirals.
+- Maira Begalli investigates linkages between people and the planet.
+- Bernardo van de Schepop uses design research to address societal needs.
+
+{{< column >}}
+
+## Partners
+
+semente was initially developed in collaboration with [Instituto Neos](https://coletivoneos.org/instituto-neos/) in Brazil and funded with grants in partnership with the University of Bristol (Newton Fund, BDFI, and ISPF).
+
+{{< endcolumns >}}
+
+## Contact us
+
+Do you want to learn more about semente and how it can improve your community project? Or would you like to contribute with its development in some other form? Send an email to *info (at) semente.de*.

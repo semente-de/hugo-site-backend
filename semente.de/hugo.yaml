@@ -1,11 +1,15 @@
 baseURL: https://semente.de
 languageCode: en-us
 title: semente
-theme: ["PaperMod"]
+theme:
+  - hugo-shortcode-roneo-collection
+  - PaperMod
 env: production
+copyright: "[CC-BY](https://creativecommons.org/licenses/by/4.0/) semente"
 
 params:
   disableThemeToggle: true
+#  defaultTheme: auto
   ShowReadingTime: false
   ShowShareButtons: true
 #  ShowPostNavLinks: false
@@ -21,7 +25,6 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
-
   label:
     text: ""
     icon: /img/icon.png
@@ -58,4 +61,4 @@ params:
     - name: "github"
       url: "https://github.com/semente-de/documentation"
     - name: "youtube"
-      url: "https://www.youtube.com/watch?v=KMt-VVZk9-o&list=PLSHdLCc8rAquu46BlqJEdqhrHafv-kIHU&pp=gAQBiAQB"
+      url: "https://youtube.com/playlist?list=PLSHdLCc8rAquu46BlqJEdqhrHafv-kIHU&si=M6uD9Bh9vxPruE-h"
