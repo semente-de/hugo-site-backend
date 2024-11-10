@@ -4,24 +4,17 @@
     <title>semente Lab on semente</title>
     <link>http://localhost:1313/lab/</link>
     <description>Recent content in semente Lab on semente</description>
-    <generator>Hugo -- 0.137.1</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>en-us</language>
     <copyright>CC-BY semente</copyright>
-    <lastBuildDate>Wed, 30 Oct 2024 16:13:18 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 10 Nov 2024 12:55:47 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/lab/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>02</title>
-      <link>http://localhost:1313/lab/02/</link>
-      <pubDate>Wed, 30 Oct 2024 16:13:18 +0100</pubDate>
-      <guid>http://localhost:1313/lab/02/</guid>
-      <description>&lt;p&gt;Body.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>01</title>
-      <link>http://localhost:1313/lab/01/</link>
-      <pubDate>Wed, 30 Oct 2024 15:54:25 +0100</pubDate>
-      <guid>http://localhost:1313/lab/01/</guid>
-      <description>&lt;p&gt;Semente is a toolkit for community initiatives.&lt;/p&gt;</description>
+      <title>What if...</title>
+      <link>http://localhost:1313/lab/what-if/</link>
+      <pubDate>Sun, 10 Nov 2024 12:55:47 +0100</pubDate>
+      <guid>http://localhost:1313/lab/what-if/</guid>
+      <description>&lt;p&gt;Felipe (semente) and Ed King (University of Bristol) were invited by the &lt;a href=&#34;https://kwmc.org.uk/&#34;&gt;Knowle West Media Centre&lt;/a&gt; to participate on the first of a new series of events. It was titled &amp;ldquo;&lt;a href=&#34;https://www.eventbrite.co.uk/e/what-if-tickets-1015221824807&#34;&gt;What if&amp;hellip;? Seeds of Tomorrow Growing Today&lt;/a&gt;&amp;rdquo;. Knowle West is a media centre with a &lt;a href=&#34;https://kwmc.org.uk/about/history/&#34;&gt;long history&lt;/a&gt; of community-oriented projects. The event was &amp;ldquo;a collective exploration of community tech plus arts. A place to grow connections and be inspired by the seeds of possible tomorrows happening today.&amp;rdquo;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
