@@ -9,7 +9,7 @@ copyright: "[CC-BY](https://creativecommons.org/licenses/by/4.0/) semente"
 
 params:
   disableThemeToggle: true
-#  defaultTheme: auto
+  defaultTheme: light
   ShowReadingTime: false
   ShowShareButtons: true
 #  ShowPostNavLinks: false
