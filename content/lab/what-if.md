@@ -28,7 +28,7 @@ ShowWordCount: true
 #    hidden: false # only hide on current single page
 ---
 
-Felipe (semente) and Ed King (University of Bristol) were invited by the [Knowle West Media Centre](https://kwmc.org.uk/) to participate on the first of a new series of events. It was titled "[What if...? Seeds of Tomorrow Growing Today](https://www.eventbrite.co.uk/e/what-if-tickets-1015221824807)". Knowle West is a media centre with a [long history](https://kwmc.org.uk/about/history/) of community-oriented projects. The event was "a collective exploration of community tech plus arts. A place to grow connections and be inspired by the seeds of possible tomorrows happening today."
+Felipe (semente) and Ed King (University of Bristol) were invited by the [Knowle West Media Centre](https://kwmc.org.uk/) to participate in the first of a new series of events. It was titled "[What if...? Seeds of Tomorrow Growing Today](https://www.eventbrite.co.uk/e/what-if-tickets-1015221824807)". Knowle West is a media centre with a [long history](https://kwmc.org.uk/about/history/) of community-oriented projects. The event was "a collective exploration of community tech plus arts. A place to grow connections and be inspired by the seeds of possible tomorrows happening today."
 
 [![What If...](https://www.knowlewest.co.uk/wp-content/uploads/2024/09/MicrosoftTeams-image-2048x1024.png)](https://www.eventbrite.co.uk/e/what-if-tickets-1015221824807)
 
