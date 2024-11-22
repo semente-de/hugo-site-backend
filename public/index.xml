@@ -4,10 +4,10 @@
     <title>semente</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on semente</description>
-    <generator>Hugo -- 0.138.0</generator>
+    <generator>Hugo -- 0.139.0</generator>
     <language>en-us</language>
     <copyright>CC-BY semente</copyright>
-    <lastBuildDate>Sun, 10 Nov 2024 12:55:47 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 22 Nov 2024 13:41:28 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
@@ -22,25 +22,7 @@
 &lt;p&gt;&lt;img alt=&#34;Semente workshop Ubatuba&#34; loading=&#34;lazy&#34; src=&#34;https://github.com/semente-de/documentation/blob/main/0.1-2022/images/deck.jpg?raw=true&#34;&gt;&lt;/p&gt;
 
 
-&lt;style&gt;
-      div.splitbox {width:100%; overflow:auto;}
-
-      div.splitbox div.column-left {
-                    width:48%;
-                    float:left;}
-      div.splitbox div.column-right {
-                    width:48%;
-                    float:right;}
-
-      @media only screen and (max-width: 600px) {
-      div.splitbox div.column-left {
-                    width:100%;
-                    float:left;}
-      div.splitbox div.column-right {
-                    width:100%;
-                    float:left;}
-      }
-  &lt;/style&gt;&lt;div class=&#34;splitbox&#34;&gt;&lt;div class=&#34;column-left&#34;&gt;
+&lt;div class=&#34;splitbox&#34;&gt;&lt;div class=&#34;column-left&#34;&gt;
 
 &lt;h2 id=&#34;team&#34;&gt;Team&lt;/h2&gt;
 &lt;ul&gt;
@@ -67,11 +49,18 @@
 &lt;p&gt;Developed along several phases of cooperation, semente consists of a playspace, triggers, and movements. Documentation about its releases and past stages can be found in this &lt;a href=&#34;https://github.com/semente-de/documentation/&#34;&gt;GitHub repository&lt;/a&gt;, and current developments can be found in the &lt;a href=&#34;http://localhost:1313/lab&#34;&gt;Lab&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Community Ways</title>
+      <link>http://localhost:1313/lab/community-ways/</link>
+      <pubDate>Fri, 22 Nov 2024 13:41:28 +0100</pubDate>
+      <guid>http://localhost:1313/lab/community-ways/</guid>
+      <description>&lt;p&gt;True to its roots on decades of experience with collaborative initiatives, semente is fundamentally focused on communities. We do acknowledge, however, the ambiguity of that word. Communities can, after all, be considered places of safety as much as sites of homogeneity and constraint. Inclusion and care, as well as exclusion and prejudice. Of course, there is no precise and universal definition of what communities are. To clarify its meaning to us, we share some practice-based reflections.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>What if...</title>
       <link>http://localhost:1313/lab/what-if/</link>
       <pubDate>Sun, 10 Nov 2024 12:55:47 +0100</pubDate>
       <guid>http://localhost:1313/lab/what-if/</guid>
-      <description>&lt;p&gt;Felipe (semente) and Ed King (University of Bristol) were invited by the &lt;a href=&#34;https://kwmc.org.uk/&#34;&gt;Knowle West Media Centre&lt;/a&gt; to participate on the first of a new series of events. It was titled &amp;ldquo;&lt;a href=&#34;https://www.eventbrite.co.uk/e/what-if-tickets-1015221824807&#34;&gt;What if&amp;hellip;? Seeds of Tomorrow Growing Today&lt;/a&gt;&amp;rdquo;. Knowle West is a media centre with a &lt;a href=&#34;https://kwmc.org.uk/about/history/&#34;&gt;long history&lt;/a&gt; of community-oriented projects. The event was &amp;ldquo;a collective exploration of community tech plus arts. A place to grow connections and be inspired by the seeds of possible tomorrows happening today.&amp;rdquo;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Felipe (semente) and Ed King (University of Bristol) were invited by the &lt;a href=&#34;https://kwmc.org.uk/&#34;&gt;Knowle West Media Centre&lt;/a&gt; to participate in the first of a new series of events. It was titled &amp;ldquo;&lt;a href=&#34;https://www.eventbrite.co.uk/e/what-if-tickets-1015221824807&#34;&gt;What if&amp;hellip;? Seeds of Tomorrow Growing Today&lt;/a&gt;&amp;rdquo;. Knowle West is a media centre with a &lt;a href=&#34;https://kwmc.org.uk/about/history/&#34;&gt;long history&lt;/a&gt; of community-oriented projects. The event was &amp;ldquo;a collective exploration of community tech plus arts. A place to grow connections and be inspired by the seeds of possible tomorrows happening today.&amp;rdquo;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
