@@ -32,7 +32,7 @@ Going further on developing semente, we are now experimenting with different sha
 
 However, as I worked on a particular working concept, I felt the need to make videos more intentionally - most of all to help me organise my thinking. This one is in English (with a quite poor vocabulary in some points... sorry for that!) and describes the spiralled shape I'm playing with these days, and how I see elements of community systems on it:
 
-- [Video available from archive.org](https://archive.org/detailes/semente-spiral-shaped-communities). Or watch it below on YouTube:
+- [Video available from archive.org](https://archive.org/details/semente-spiral-shaped-communities). Or watch it below on YouTube:
  
 {{< youtube cjYhaq-wibQ  >}}
 
