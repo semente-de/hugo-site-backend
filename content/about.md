@@ -37,9 +37,9 @@ cover:
 
 semente is a toolkit for community development. Based on decades of experience in open initiatives, collaborative actions and transdisciplinary methods, semente offers concrete ways to create, visualise and improve commons-based systems.
 
-- Read more about the toolkit [here](/toolkit).
+- Read more about the current version of the toolkit [here](/toolkit).
 
-The tools and vision created by semente are a result of ongoing collaboration between activists, designers, nonprofits and researchers in Brazil and Europe.
+The tools and vision created by semente are result of ongoing collaborations between activists, designers, nonprofits and researchers in Brazil and Europe.
 
 ![Semente workshop Ubatuba](https://github.com/semente-de/documentation/blob/main/0.1-2022/images/deck.jpg?raw=true)
 
@@ -55,7 +55,7 @@ The tools and vision created by semente are a result of ongoing collaboration be
 
 ## Partners
 
-semente was initially developed in collaboration with [Instituto Neos](https://coletivoneos.org/instituto-neos/) in Brazil and funded with grants in partnership with the University of Bristol (Newton Fund, BDFI, and ISPF).
+semente was initially developed in a partnership with [Instituto Neos](https://coletivoneos.org/instituto-neos/) in Brazil and funded with grants in partnership with the University of Bristol (Newton Fund, BDFI, and ISPF).
 
 {{< endcolumns >}}
 
