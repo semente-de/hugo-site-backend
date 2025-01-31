@@ -40,4 +40,4 @@ However, as I worked on a particular working concept, I felt the need to make vi
 
 Editing the video already brought me insights that I will incorporate the next times I present it (in other words, I'm spiralling semente itself). All feedback is welcome.
 
-**P.S.:** during an earlier attempt at documenting the experiments on paper, the camera on my phone failed. I ended up starting from scratch and made the video above. Afterwards, however, I thought it was worth making the original one public, even if incomplete. It's available from the [Internet Archive])(https://archive.org/details/semente_paper-prototyping) and [YouTube](https://www.youtube.com/watch?v=exaneu79dYc).
+**P.S.:** during an earlier attempt at documenting the experiments on paper, the camera on my phone failed. I ended up starting from scratch and made the video above. Afterwards, however, I thought it was worth making the original one public, even if incomplete. It's available from the [Internet Archive](https://archive.org/details/semente_paper-prototyping) and [YouTube](https://www.youtube.com/watch?v=exaneu79dYc).
