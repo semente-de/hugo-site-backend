@@ -1,7 +1,6 @@
 ---
 date: '2025-02-19T17:12:28-03:00'
-title: '
- Residency'
+title: 'GAIATO Residency'
 #draft: true
 #weight: 1
 #author: "Who"
@@ -35,9 +34,11 @@ For two weeks in February, the *semente* team was in a residency in [Ubatuba](ht
 
 The residency was hosted by [GAIATO](https://www.gaiato.org/), a nonprofit located in Ipiranguinha, a neighborhood with one of the highest rates of social vulnerability in Ubatuba. Active since the late nineties, GAIATO is deeply commited to the surrounding community, particularly working with children and teenagers. The organisation is responsible for the *Social Service for Coexistence and Strengthening of Bonds* in the neighbourhood. GAIATO is recognized for its work in promoting local art and culture, income generation, solidarity economy, and youth protagonism.
 
+![](https://raw.githubusercontent.com/semente-de/documentation/9c3358a4e3b526762dabce7047140dffad7d3683/0.3/gaiato/residencia/formas/IMG_9553.HEIC.jpg)
+
 In preparation for the residency, we had conducted online workshops and conversations both among the *semente* team and with the executive team at GAIATO. The perspective was to conduct it more as an artistic residency than a design consultancy. In other words, we were not necessarily expecting to create any sort of product, solution, or result. It was an open-ended investigation to learn with the GAIATO team, rather than us imposing an external method to address their issues. Of course, we expected to contribute to their understanding of project cycles and regenerative dynamics, just as much as we anticipated testing and improving on our vision of semente. But the residency didn't expect particular outputs.
 
-![](https://raw.githubusercontent.com/semente-de/documentation/9c3358a4e3b526762dabce7047140dffad7d3683/0.3/gaiato/residencia/formas/IMG_9553.HEIC.jpg)
+![](https://raw.githubusercontent.com/semente-de/documentation/9c3358a4e3b526762dabce7047140dffad7d3683/0.3/gaiato/residencia/costura/20250210_173509.jpg)
 
 The days in Ubatuba were extremely hot, as is usual in the summer near the Atlantic Rainforest. We arrived right after the highest tourist season, when the population starts returning to normal after an intense spike of about one month. After learning a bit about the organisation and its history, the neighbourhood and their current issues, we and GAIATO have decided to focus our attention during those weeks on the education team. They are the ones in direct contact with the organisation's main audience, after all. And while their activities are perennial, they also restart every year - which puts the team in a good position both to understand and also challenge the cyclical nature of *semente* and how the method is designed.
 
