@@ -41,7 +41,7 @@ semente is a toolkit for community development. Based on decades of experience i
 
 The tools and vision created by semente are result of ongoing collaborations between activists, designers, nonprofits and researchers in Brazil and Europe.
 
-![Semente workshop Ubatuba](https://github.com/semente-de/documentation/blob/main/0.1-2022/images/deck.jpg?raw=true)
+![Semente workshop Ubatuba](https://github.com/semente-de/documentation/blob/main/0.1/images/deck.jpg?raw=true)
 
 {{< columns >}}
 

@@ -43,9 +43,9 @@ In its first versions, developed between 2022 and 2023 (read about the developme
 - An horizontal axis from time through seeding and pointing at fruits. This axis helps orient efforts towards commonly agreed upon outcomes.
 - A vertical axis starting on soil (past accomplishments, history, memory) growing through handling (tools, techniques, everyday work).
 
-![](https://raw.githubusercontent.com/semente-de/documentation/refs/heads/main/0.3-2024/images/semente%20alt%20-%202.1.jpg)
+![](https://raw.githubusercontent.com/semente-de/documentation/refs/heads/main/0.3/images/semente%20alt%20-%202.1.jpg)
 
 
 Processual documentation about the releases of semente and earlier stages of development can be found in this [GitHub repository](https://github.com/semente-de/documentation/). A new phase is underway with results expected for March 2025. Ongoing documentation about it can be found in the [Lab](/lab).
 
-![Fields - 0.1](https://raw.githubusercontent.com/semente-de/documentation/refs/heads/main/0.1-2022/images/semente-eixos.png)
+![Fields - 0.1](https://raw.githubusercontent.com/semente-de/documentation/refs/heads/main/0.1/images/semente-eixos.png)
