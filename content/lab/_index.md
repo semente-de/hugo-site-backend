@@ -27,4 +27,4 @@ cover:
 
 semente Lab is our space of experimentation and reflection. In this page you'll find our research notes, thought experiments, musings and fast-paced reporting.
 
-See also the [wiki pages](https://fonte.wiki/projetos/semente) about semente (in Portuguese), and this repository with [documentation](https://github.com/semente-de/documentation/) of its development.
+See also the [wiki pages](https://fonte.wiki/projetos/semente) about *semente* (in Portuguese), and this repository with [documentation](https://github.com/semente-de/documentation/) of its development.
