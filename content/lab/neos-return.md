@@ -58,6 +58,8 @@ Personally, I decided to focus my attention on [SiMCiTI](https://wiki.ubatuba.cc
 
 The meeting was dynamic, and we received positive feedback from participants. However, I think we still need to improve on the intentionality of post-interaction analysis and reframing. In other words, once participants have spread their post-it notes on the board, we need to follow a clear process of going through their ideas, repositioning them, and asking follow-up questions. During that session we did occasionally do that, but it was very informal and improvised. semente needs a bit more attention on those dynamics, now that we are pretty much aligned on the shapes of the vectors and their phases.
 
-As for the future of ubatuba.cc, well, I hope the meeting has planted new seeds. Let's give it some time to sprout and grow.
+A focus of attention during the conversation was the newly found centrality of the compost bin in the system. Through the two weeks of residency at GAIATO, we repositioned the compost bin many times, but ended up deciding to keep it outside any of the three vectors. That's because we understood that the compost bin can be actioned on either - seeding, tending, regenerating. The conversation in Neos explored the similarities and differences between the compost bin and litterfall on forests - to me, a matter of intentionality. The next iteration of the semente playfield will reflect those improvements.
+
+As for the future of ubatuba.cc, well, I hope the meeting has planted new seeds. Let's give it some time to sprout and help it grow when the time comes.
 
 ![](https://raw.githubusercontent.com/semente-de/documentation/9c3358a4e3b526762dabce7047140dffad7d3683/0.3/neos/ubatuba-cc/20250216_081320.jpg)
