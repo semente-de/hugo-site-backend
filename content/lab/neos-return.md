@@ -34,7 +34,7 @@ ShowWordCount: true
 
 On a Saturday of perfect tropical summer weather, *semente* returned to Instituto Neos, on the northern coast of Ubatuba, in Brazil. As a sort of meta-spiral, we were starting another turn of semente's own cycle of seeding, tending and regenerating itself. After all, semente was [created in partnership with Neos](https://is.efeefe.me/stuff/seeds-digital-reforestation), and its first drafts were refined on workshops during [Tropixel Sementes 2022](https://tropixel.org/22-sementes), on that very place.
 
-![](https://raw.githubusercontent.com/semente-de/documentation/9c3358a4e3b526762dabce7047140dffad7d3683/0.3/neos/ubatuba-cc/20250216_083254.jpg)
+![](https://raw.githubusercontent.com/semente-de/documentation/9c3358a4e3b526762dabce7047140dffad7d3683/0.3/neos/sede/20250216_083254.jpg)
 
 Having gone through some years of occasional development - especially having just finished our [residency with GAIATO](../gaiato-residency) -, we had quite fresh ideas to put to test. We invited people interested on potential projects of science, culture, society and future to join us for an exploratory session, using the name [ubatuba.cc](http://ubatuba.cc/). That name and URL were never associated with a particular project, except for a [wiki website](https://wiki.ubatuba.cc) that I used in the past to organise and document many projects and initiatives. The idea for the day was to see whether semente could be used to visualise potential cooperation between people, collectives and organisations that were not yet collaborating.
 
