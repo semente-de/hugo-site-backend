@@ -54,7 +54,7 @@ Personally, I decided to focus my attention on [SiMCiTI](https://wiki.ubatuba.cc
 
 ![](https://raw.githubusercontent.com/semente-de/documentation/9c3358a4e3b526762dabce7047140dffad7d3683/0.3/neos/ubatuba-cc/20250215_195706-horizontal.jpg)
 
-![](https://raw.githubusercontent.com/semente-de/documentation/9c3358a4e3b526762dabce7047140dffad7d3683/0.3/neos/ubatuba-cc/final_AG.jpg)
+![](https://raw.githubusercontent.com/semente-de/documentation/9c3358a4e3b526762dabce7047140dffad7d3683/0.3/neos/ubatuba-cc/final_AG.jpeg)
 
 The meeting was dynamic, and we received positive feedback from participants. However, I think we still need to improve on the intentionality of post-interaction analysis and reframing. In other words, once participants have spread their post-it notes on the board, we need to follow a clear process of going through their ideas, repositioning them, and asking follow-up questions. During that session we did occasionally do that, but it was very informal and improvised. semente needs a bit more attention on those dynamics, now that we are pretty much aligned on the shapes of the vectors and their phases.
 
