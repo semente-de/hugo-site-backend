@@ -59,16 +59,13 @@ The tools and vision created by *semente* are result of ongoing collaborations b
 
 {{< endcolumns >}}
 
-{{< columns >}}
-
 ## Contributors
 
 Over the years, *semente* received contributions from many participants:
 
 *List updated on 25.05.2025.*
 
-
-{{< column>}}
+{{< columns >}}
 
 - Allan Iwama.
 - Anna Gallafrio.
@@ -81,6 +78,10 @@ Over the years, *semente* received contributions from many participants:
 - Gisele Silva.
 - Heloise Amazonas.
 - João Evoé.
+
+
+{{< column>}}
+
 - Juan Blanco Prada.
 - Marcus Binns.
 - Marina Nicolaiewsky.
