@@ -57,13 +57,18 @@ The tools and vision created by *semente* are result of ongoing collaborations b
 
 *semente* was initially developed in a partnership with [Instituto Neos](https://coletivoneos.org/instituto-neos/) in Brazil. In 2025, it was improved during a residency in [GAIATO](https://gaiato.org.br). *semente* was mainly funded through grants in partnership with the University of Bristol (Newton Fund, BDFI, and ISPF).
 
+{{< endcolumns >}}
+
+{{< columns >}}
+
 ## Contributors
 
 Over the years, *semente* received contributions from many participants:
 
 *List updated on 25.05.2025.*
 
-*Lista atualizada em 19.02.2025.*
+
+{{< column>}}
 
 - Allan Iwama.
 - Anna Gallafrio.
