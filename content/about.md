@@ -68,31 +68,50 @@ Over the years, *semente* received contributions from many participants:
 {{< columns >}}
 
 - Allan Iwama.
+- Anita Ekman.
 - Anna Gallafrio.
+- Beá Tibiriçá.
 - Celina Rosa.
+- Cinthia Mendonça.
 - Cynthia Demétrio.
 - Daniela Del Valle Dominguez.
+- Edward King.
 - Fabiane Borges.
 - Felipe Penin.
 - Geide de Paula.
+- Georgia Nicolau.
 - Gisele Silva.
+- Giseli Vasconcelos.
 - Heloise Amazonas.
 - João Evoé.
+- Juan Blanco Prada.
+- Louise Hisayasu.
+- Mãe Beth de Oxum.
 
 
 {{< column>}}
 
-- Juan Blanco Prada.
 - Marcus Binns.
 - Marina Nicolaiewsky.
 - Manu Rabinovich.
 - Mariana Romão.
 - Mariana Vilela.
+- Milena Franceschinelli.
+- Nelson Pretto.
+- Paulo Lima (in memoriam).
 - Priscilla Romão.
+- Rafael Coutinho.
 - Renata Coelho.
+- Ricardo Ruiz.
 - Robert Elmar.
+- Rodrigo Savazoni.
+- Sebastian Gerlic.
 - Sofia Galvão.
 - Tatiana Prado.
+- Tatiana Wells.
+- TC Silva.
+- Tiago Bugarin.
+- Vagner dos Santos.
 
 {{< endcolumns >}}
 
