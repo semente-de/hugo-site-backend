@@ -48,7 +48,7 @@ params:
     imageUrl: "img/interloop.png" # optional
     imageTitle: "Semente Interloop Logo" # optional
     imageWidth: 400 # custom size
-    imageHeight: 400 # custom size
+    # imageHeight: 400 # custom size - Removed to maintain aspect ratio
   assets:
     favicon: "/favicon.ico"
     favicon16x16: "/favicon-16x16.png"

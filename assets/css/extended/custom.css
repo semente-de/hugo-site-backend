@@ -1,0 +1,6 @@
+.profile img {
+    border-radius: 10px;
+    object-fit: contain; /* Ensure aspect ratio is maintained and image fits within dimensions */
+    /* Optionally, you might want to set a max-height if the width is fixed,
+       or ensure the container itself has appropriate dimensions */
+}
