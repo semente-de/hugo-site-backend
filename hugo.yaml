@@ -26,8 +26,8 @@ params:
   showtoc: false
   tocopen: false
   label:
-    text: ""
-    icon: /img/icon.png
+    text: "semente logo"
+    icon: /img/25-logo.png
     iconHeight: 35
 
 #  socialIcons:
@@ -45,10 +45,16 @@ params:
   profileMode:
     enabled: true
     subtitle: "Community initiative toolkit."
-    imageUrl: "img/logo.png" # optional
-    imageTitle: "semente.de" # optional
+    imageUrl: "img/interloop.png" # optional
+    imageTitle: "Semente Interloop Logo" # optional
     imageWidth: 400 # custom size
     imageHeight: 400 # custom size
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "" # Add this if you have a safari-pinned-tab.svg
     buttons:
       - name: About
         url: "/about"
