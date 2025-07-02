@@ -8,3 +8,39 @@
     margin-left: auto; /* Center the image if its container is wider */
     margin-right: auto; /* Center the image if its container is wider */
 }
+
+/* Homepage Profile Customizations */
+.profile .profile_inner h1 { /* Site Title */
+    font-size: 2.5rem; /* Slightly larger title */
+    color: #2b6777; /* Dark cyan for title */
+}
+
+.profile .profile_inner p { /* Subtitle */
+    font-size: 1.1rem;
+    color: #52ab98; /* Teal for subtitle */
+    margin-bottom: 1.5rem; /* More space below subtitle */
+}
+
+.profile .buttons a.button { /* Profile Buttons */
+    background-color: #f2f2f2; /* Light grey background */
+    color: #2b6777; /* Dark cyan text */
+    border: 1px solid #c8d8e4; /* Light blue border */
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.profile .buttons a.button:hover {
+    background-color: #2b6777; /* Dark cyan background on hover */
+    color: #ffffff; /* White text on hover */
+}
+
+/* General Body Text - Optional: Uncomment to apply site-wide font changes */
+/*
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333333;
+}
+*/

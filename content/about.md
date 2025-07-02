@@ -29,6 +29,10 @@ cover:
 #    caption: "imagem" # display caption under cover
 #    relative: false # when using page bundles set this to true
 #    hidden: false # only hide on current single page
+    image: "/img/ff-bristol.jpg"
+    alt: "Semente workshop"
+    caption: "Semente workshop in Bristol"
+    relative: false
 #editPost:
 #    URL: "https://github.com/<path_to_repo>/content"
 #    Text: "Suggest Changes" # edit text
