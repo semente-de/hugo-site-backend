@@ -44,7 +44,7 @@ params:
 
   profileMode:
     enabled: true
-    subtitle: "Transform your community with our open-source toolkit. Discover tools and methods to build circular, commons-based systems."
+    subtitle: "Community initiative toolkit."
     imageUrl: "img/interloop.png" # optional
     imageTitle: "Semente Interloop Logo" # optional
     # imageWidth: 400 # custom size - Removing for CSS control
@@ -56,10 +56,6 @@ params:
         url: "/toolkit"
       - name: Lab
         url: /lab
-      - name: Promo
-        url: /promo
-      - name: Learn More
-        url: "/toolkit"
   assets:
     favicon: "/favicon.ico"
     favicon16x16: "/favicon-16x16.png"

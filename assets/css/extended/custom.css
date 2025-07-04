@@ -1,12 +1,26 @@
 .profile img {
     border-radius: 10px;
-    object-fit: contain; /* Ensure aspect ratio is maintained */
-    width: 100%; /* Make image responsive within its container */
-    max-width: 1000px; /* Max width on large screens */
-    height: auto; /* Ensure height scales proportionally */
-    display: block; /* Can help with layout and removing extra space below image */
-    margin-left: auto; /* Center the image if its container is wider */
-    margin-right: auto; /* Center the image if its container is wider */
+    object-fit: cover; /* Changed from contain to cover for hero effect */
+    width: 100%; /* Make image responsive, full width of its container */
+    max-width: 100%; /* Ensure it doesn't exceed container if container is constrained */
+    height: 60vh; /* Viewport height, adjust as desired */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem; /* Add some space below the hero image */
+}
+
+/* Container for the profile mode to allow full-width image */
+.home .profile {
+    max-width: 100%; /* Allow profile section to span full width */
+    padding-left: 0; /* Remove default padding if any */
+    padding-right: 0; /* Remove default padding if any */
+}
+
+/* Ensure profile inner content (title, subtitle, buttons) is centered and spaced */
+.profile .profile_inner {
+    padding-top: 1rem; /* Add some space above the title if needed */
+    text-align: center; /* Center the title, subtitle, and buttons */
 }
 
 /* Homepage Profile Customizations */
