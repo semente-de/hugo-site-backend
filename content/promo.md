@@ -19,7 +19,7 @@ Here you can find materials that showcase the work and vision of *semente*.
 
 ### Videos
 
-{{< youtube_responsive id="PLSHdLCc8rAquu46BlqJEdqhrHafv-kIHU" >}}
+{{< youtube_responsive id="cjYhaq-wibQ" playlist="PLSHdLCc8rAquu46BlqJEdqhrHafv-kIHU" title="Semente Toolkit Playlist" >}}
 
 *Watch our playlist on YouTube to learn more about semente's approach and applications.*
 
