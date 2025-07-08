@@ -1,6 +1,6 @@
 .profile img {
     border-radius: 10px;
-    object-fit: cover; /* Changed from contain to cover for hero effect */
+    object-fit: contain; /* Display full image, no cropping */
     width: 100%; /* Make image responsive, full width of its container */
     max-width: 100%; /* Ensure it doesn't exceed container if container is constrained */
     height: 60vh; /* Viewport height, adjust as desired */
