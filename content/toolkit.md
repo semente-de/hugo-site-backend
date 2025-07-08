@@ -35,6 +35,19 @@ UseHugoToc: true
 #    appendFilePath: true # to append file path to Edit link
 ---
 
+## Unlock Your Community's Potential
+
+**The *semente* toolkit provides you with innovative tools and field-tested methods to map, understand, and transform your community's collective processes.** Whether you're starting a new initiative or looking to enhance existing ones, *semente* helps you visualize resource flows, identify opportunities for circularity, and foster stronger collaboration.
+
+**Dive in and discover how *semente* can help you:**
+- Gain a systems view of your community's dynamics.
+- Implement circular and commons-based approaches.
+- Co-create sustainable and resilient local solutions.
+
+Explore the tools below and [share your feedback with us](/about#contact-us) – let's grow together!
+
+---
+
 semente (Portuguese for "seed") consists of a set of tools and methods to help communities understand and act on collective processes, resources, and dynamics. It focuses on a systems view of commonalities and differences, and in the use of circular metaphors inspired by the interaction between humans and nature. In that, *semente* honours to the ways communities worldwide interpret time, work, and the world.
 
 ![semente Tropixel 2022](https://fonte.wiki/visual.jpg)

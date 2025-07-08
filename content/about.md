@@ -119,6 +119,18 @@ Over the years, *semente* received contributions from many participants:
 
 {{< endcolumns >}}
 
+## Our Impact & Vision
+
+*Semente* empowers communities by providing accessible tools and methodologies for sustainable development. We foster collaborative ecosystems where resources are managed circularly and collectively, leading to resilient and thriving local initiatives. Our vision is a world where every community has the means to design and implement its own path towards a regenerative future.
+
+### Watch Our Journey & Insights
+
+Discover more about our approach, case studies, and the impact of *semente* in action:
+
+{{< youtube_responsive id="cjYhaq-wibQ" playlist="PLSHdLCc8rAquu46BlqJEdqhrHafv-kIHU" title="Semente Toolkit Playlist" >}}
+
+---
+
 ## Contact us
 
 Do you want to learn more about *semente* and how it can improve your community project? Or would you like to contribute with its development in some other form? Send an email to *info (at) semente.de*.
