@@ -29,9 +29,9 @@ cover:
 #    caption: "imagem" # display caption under cover
 #    relative: false # when using page bundles set this to true
 #    hidden: false # only hide on current single page
-    image: "/img/ff-bristol.jpg"
-    alt: "Semente workshop"
-    caption: "Semente workshop in Bristol"
+    image: "/img/interloop_neos.jpg"
+    alt: "Semente interloop"
+    caption: "Working version of the semente interloop"
     relative: false
 #editPost:
 #    URL: "https://github.com/<path_to_repo>/content"
@@ -39,9 +39,10 @@ cover:
 #    appendFilePath: true # to append file path to Edit link
 ---
 
-*semente* is a toolkit for community development. Based on decades of experience in open initiatives, collaborative actions and transdisciplinary methods, *semente* offers concrete ways to create, visualise and improve circular commons-based systems.
+*semente* is a toolkit for community development. Based on decades of experience in open initiatives, collaborative actions and transdisciplinary methods, *semente* offers concrete ways to create, visualise and improve regenerative commons-based systems.
 
 - Read more about the current version of the toolkit [here](/toolkit).
+- Our research notes and other stories are in the [lab](/lab).
 
 The tools and vision created by *semente* are result of ongoing collaborations between activists, designers, nonprofits and researchers in Brazil and Europe.
 
@@ -121,13 +122,13 @@ Over the years, *semente* received contributions from many participants:
 
 ## Our Impact & Vision
 
-*Semente* empowers communities by providing accessible tools and methodologies for sustainable development. We foster collaborative ecosystems where resources are managed circularly and collectively, leading to resilient and thriving local initiatives. Our vision is a world where every community has the means to design and implement its own path towards a regenerative future.
+*semente* empowers communities by providing accessible tools and methodologies for sustainable development. We foster collaborative ecosystems where resources are managed circularly and collectively, leading to resilient and thriving local initiatives. Our vision is a world where every community has the means to design and implement its own path towards a regenerative future.
 
 ### Watch Our Journey & Insights
 
 Discover more about our approach, case studies, and the impact of *semente* in action:
 
-{{< youtube_responsive id="cjYhaq-wibQ" playlist="PLSHdLCc8rAquu46BlqJEdqhrHafv-kIHU" title="Semente Toolkit Playlist" >}}
+{{< youtube_responsive id="kIu3pkUq298" playlist="PLSHdLCc8rAquu46BlqJEdqhrHafv-kIHU" title="Semente Toolkit Playlist" >}}
 
 ---
 
