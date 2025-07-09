@@ -35,15 +35,45 @@ UseHugoToc: true
 #    appendFilePath: true # to append file path to Edit link
 ---
 
-semente (Portuguese for "seed") consists of a set of tools and methods to help communities understand and act on collective processes, resources, and dynamics. It focuses on a systems view of commonalities and differences, and in the use of circular metaphors inspired by the interaction between humans and nature. In that, *semente* honours to the ways communities worldwide interpret time, work, and the world.
+## Unlock Your Community's Potential
 
-![semente Tropixel 2022](https://fonte.wiki/visual.jpg)
+**The *semente* toolkit provides you with innovative tools and field-tested methods to map, understand, and transform your community's collective processes.** Whether you're starting a new initiative or looking to enhance existing ones, *semente* helps you visualize dynamics, identify opportunities for regenerative action, and foster stronger collaboration.
 
-In its first versions, developed collaboratively between 2022 and 2023 (read about the development [here](https://is.efeefe.me/stuff/seeds-digital-reforestation)), *semente* was based on a canvas with discrete fields inspired by the relationship of humans and plants. During the residency at GAIATO in 2025, that format was updated with a streamlined, spiralled shape. It will be published in March 2025.
+**Dive in and discover how *semente* can help you:**
+- Gain a systems view of your community's dynamics.
+- Implement circular and commons-based approaches.
+- Co-create sustainable and resilient local solutions.
 
-![semente Neos 2025](https://raw.githubusercontent.com/semente-de/documentation/9c3358a4e3b526762dabce7047140dffad7d3683/0.3/neos/ubatuba-cc/20250215_195706-horizontal.jpg)
+Explore the tools below and [share your feedback with us](/about#contact-us) – let's grow together!
+
+---
 
 
-Processual documentation about the development of *semente* can be found in [this GitHub repository](https://github.com/semente-de/documentation/). Comments and reflections along the way can are posted to the [Lab blog](/lab).
+## The *semente* framework
 
-![Fields - 0.1](https://raw.githubusercontent.com/semente-de/documentation/refs/heads/main/0.1/images/semente-eixos.png)
+
+*semente* focuses on a systems view of commonalities and differences, and in the use of circular metaphors inspired by the interaction between humans and nature. It is inspired by how many communities worldwide interpret time, purpose, and outcomes. The method was designed as an alternative to rigid planning models that often don’t reflect how communities truly live, act, and grow together.
+
+We use analogies inspired by the care for plants, a vocabulary familiar and rooted in human experience. It was a choice to help reach across diverse contexts and establish deep conversations about meaningful collective action. Every turn of the cycle might strengthen an existing project, give rise to something completely different, or fertilise the soil. When we revisit past ideas, we do so with fresh perspective, deeper understanding, greater resilience, and respect for what came before.
+
+### Interloop - a spiral of time
+
+At the core of *semente* is our view of time as a continuous spiral called the **interloop**. Departing from a view of a project timeline as a straight arrow pointing forwards, the interloop reminds us of the importance of honouring the past and planning for future generations.
+
+![Interloop](/img/interloop.png)
+
+The interloop is composed of three evolving vectors of action: **sowing**, **handling**, and **regeneration**. The interloop asks communities to reflect on the meaning of these three vectors and define a series of base elements: **seed**, **soil**, **seedling**, **fruits**, and **silo**. Across all three vectors is the **commposter**, a place to set things aside, mature, and return to them when the time is right.
+
+The use of the interloop can start from any point. Perhaps your community wants to start deciding what fruits it expects to generate. Or to understand that is its seed, or what soils it builds upon. Each vector offers a set of prompt cards to help reflect, adapt, and create action together.
+
+![Cards](https://github.com/semente-de/documentation/raw/main/0.3/cards/cards.png)
+
+Ready to go deeper? Access _semente_'s documentation:
+
+- [Interloop](https://github.com/semente-de/documentation/tree/main/0.3/interloop).
+- [Prompt Cards](https://github.com/semente-de/documentation/tree/main/0.3/cards). 
+
+---
+
+
+Processual documentation about the development phases of *semente* can be found in the root of [this GitHub repository](https://github.com/semente-de/documentation/). Comments and reflections along the way can are posted to the [lab](/lab) section of this website.

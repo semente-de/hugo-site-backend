@@ -44,17 +44,17 @@ params:
 
   profileMode:
     enabled: true
-    subtitle: "Community initiative toolkit."
+    subtitle: "Transform your community with our open-source toolkit. _semente_ offers tools and methods to build regenerative, commons-based systems."
     imageUrl: "img/interloop.png" # optional
     imageTitle: "Semente Interloop Logo" # optional
     # imageWidth: 400 # custom size - Removing for CSS control
     # imageHeight: 400 # custom size - Removed to maintain aspect ratio
     buttons:
-      - name: About
+      - name: "About"
         url: "/about"
-      - name: Toolkit
+      - name: "The Toolkit"
         url: "/toolkit"
-      - name: Lab
+      - name: "Online Lab"
         url: /lab
   assets:
     favicon: "/favicon.ico"
@@ -64,7 +64,7 @@ params:
     safari_pinned_tab: "" # Add this if you have a safari-pinned-tab.svg
 
   socialIcons: # optional
-    - name: "github"
-      url: "https://github.com/semente-de/documentation"
     - name: "youtube"
       url: "https://youtube.com/playlist?list=PLSHdLCc8rAquu46BlqJEdqhrHafv-kIHU&si=M6uD9Bh9vxPruE-h"
+    - name: "github"
+      url: "https://github.com/semente-de/documentation"
