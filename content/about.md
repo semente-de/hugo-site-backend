@@ -31,7 +31,7 @@ cover:
 #    hidden: false # only hide on current single page
     image: "/img/interloop_neos.jpg"
     alt: "Semente interloop"
-    caption: "Working version of the semente interloop"
+    caption: "The semente *interloop*"
     relative: false
 #editPost:
 #    URL: "https://github.com/<path_to_repo>/content"
@@ -44,9 +44,11 @@ cover:
 - Read more about the current version of the toolkit [here](/toolkit).
 - Our research notes and other stories are in the [lab](/lab).
 
+The *semente* method empowers communities by providing accessible tools and methodologies for sustainable development. We foster collaborative ecosystems managed collectively, leading to resilient and thriving local initiatives. Our vision is a world where every community has the means to design and implement its own path towards a regenerative future.
+
 The tools and vision created by *semente* are result of ongoing collaborations between activists, designers, nonprofits and researchers in Brazil and Europe.
 
-![Semente workshop Ubatuba](https://github.com/semente-de/documentation/blob/main/0.1/images/deck.jpg?raw=true)
+![gaiato](/img/gaiato.png)
 
 {{< columns >}}
 
@@ -120,9 +122,7 @@ Over the years, *semente* received contributions from many participants:
 
 {{< endcolumns >}}
 
-## Our Impact & Vision
-
-*semente* empowers communities by providing accessible tools and methodologies for sustainable development. We foster collaborative ecosystems where resources are managed circularly and collectively, leading to resilient and thriving local initiatives. Our vision is a world where every community has the means to design and implement its own path towards a regenerative future.
+![neos](/img/neos-25.png)
 
 ### Watch Our Journey & Insights
 
