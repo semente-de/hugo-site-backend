@@ -2,7 +2,7 @@
 <section id="hero" class="h-screen flex flex-col justify-center items-center text-center bg-white">
     <div class="container mx-auto px-6">
         {{ with .Site.Params.profileMode }}
-        <img src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle }}" class="mx-auto mb-4" style="max-height: 300px;">
+        <img src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle }}" class="mx-auto mb-4" style="max-height: 400px;">
         <h1 class="text-4xl font-bold mb-4">{{ .subtitle | markdownify }}</h1>
         <div class="flex justify-center space-x-4">
             {{ range .buttons }}
@@ -100,14 +100,8 @@
 </section>
 
 <!-- Call to Action Section -->
-<section id="cta" class="py-20 bg-blue-600 text-white">
+<section id="cta" class="py-20 bg-white">
     <div class="container mx-auto px-6 text-center">
-        <h2 class="text-3xl font-bold mb-4">Ready to start your journey?</h2>
-        <p class="mb-8">Explore our resources, join the conversation, and help us build a more regenerative future.</p>
-        <div class="flex justify-center space-x-4">
-            <a href="/about" class="bg-white hover:bg-gray-200 text-blue-600 font-bold py-3 px-6 rounded">About Semente</a>
-            <a href="https://github.com/semente-de/documentation" class="bg-gray-800 hover:bg-gray-900 text-white font-bold py-3 px-6 rounded">View Documentation</a>
-            <a href="mailto:info@semente.de" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded">Get in Touch</a>
-        </div>
+        <img src="{{ "img/home-bottom.jpg" | absURL }}" alt="placeholder image" class="mx-auto">
     </div>
 </section>
