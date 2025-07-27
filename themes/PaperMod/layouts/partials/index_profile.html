@@ -1,58 +1,113 @@
-<div class="profile">
-    {{- with site.Params.profileMode }}
-    <div class="profile_inner">
-        {{- if .imageUrl -}}
-        {{- $img := "" }}
-        {{- if not (urls.Parse .imageUrl).IsAbs }}
-            {{- $img = resources.Get .imageUrl }}
-        {{- end }}
-        {{- if $img }}
-            {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
-            {{- if hugo.IsExtended -}}
-                {{- $processableFormats = $processableFormats | append "webp" -}}
-            {{- end -}}
-            {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
-            {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}}
-                {{- if (not (and (not .imageHeight) (not .imageWidth))) }}
-                    {{- $img = $img.Resize (printf "%dx%d" .imageWidth .imageHeight) }}
-                {{- else if .imageHeight }}
-                    {{- $img = $img.Resize (printf "x%d" .imageHeight) }}
-                {{ else if .imageWidth }}
-                    {{- $img = $img.Resize (printf "%dx" .imageWidth) }}
-                {{ else }}
-                    {{- $img = $img.Resize "150x150" }}
-                {{- end }}
-            {{- end }}
-            <img draggable="false" src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
-                height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
-        {{- else }}
-        <img draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
-            height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
-        {{- end }}
-        {{- end }}
-        <h1>{{ .title | default site.Title | markdownify }}</h1>
-        <span>{{ .subtitle | markdownify }}</span>
-        {{- partial "social_icons.html" -}}
-
-        {{- with .buttons }}
-        <div class="buttons">
-            {{- range . }}
-            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}">
-                <span class="button-inner">
-                    {{ .name }}
-                    {{- if (findRE "://" .url) }}&nbsp;
-                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
-                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="14" width="14">
-                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
-                        <path d="M15 3h6v6"></path>
-                        <path d="M10 14L21 3"></path>
-                    </svg>
-                    {{- end }}
-                </span>
+<!-- Hero Section -->
+<section id="hero" class="h-screen flex flex-col justify-center items-center text-center bg-white">
+    <div class="container mx-auto px-6">
+        {{ with .Site.Params.profileMode }}
+        <img src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle }}" class="mx-auto mb-4" style="max-height: 300px;">
+        <h1 class="text-4xl font-bold mb-4">{{ .subtitle | markdownify }}</h1>
+        <div class="flex justify-center space-x-4">
+            {{ range .buttons }}
+            <a href="{{ .url | absURL }}" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                {{ .name }}
             </a>
-            {{- end }}
+            {{ end }}
         </div>
-        {{- end }}
+        {{ end }}
     </div>
-    {{- end}}
-</div>
+    <div class="absolute bottom-10">
+        <a href="#interloop" class="animate-bounce">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+        </a>
+    </div>
+</section>
+
+<!-- Interloop Graphic and Descriptions Section -->
+<section id="interloop" class="py-20 bg-gray-50">
+    <div class="container mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+                <img src="{{ "img/interloop.png" | absURL }}" alt="Interloop Graphic" class="mx-auto">
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <h3 class="font-bold text-lg mb-2">Seedbag</h3>
+                    <p>Starting point of the cycle, where ideas and resources are gathered.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <h3 class="font-bold text-lg mb-2">Soil</h3>
+                    <p>The environment or community where the project will be implemented.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <h3 class="font-bold text-lg mb-2">Sowing</h3>
+                    <p>The act of planting the seeds, initiating the project.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <h3 class="font-bold text-lg mb-2">Seedling</h3>
+                    <p>The early stage of the project, where it starts to grow.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <h3 class="font-bold text-lg mb-2">Tending</h3>
+                    <p>Nurturing the project, providing support and resources.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <h3 class="font-bold text-lg mb-2">Fruits</h3>
+                    <p>The results and outcomes of the project.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <h3 class="font-bold text-lg mb-2">Silo</h3>
+                    <p>Storing the harvest, the knowledge and assets gained.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <h3 class="font-bold text-lg mb-2">Back to Seedbag (from Silo)</h3>
+                    <p>Refining and storing the best seeds for future projects.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <h3 class="font-bold text-lg mb-2">Compost</h3>
+                    <p>Learning from failures and challenges.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-md">
+                    <h3 class="font-bold text-lg mb-2">Back to Seedbag (from Compost)</h3>
+                    <p>Integrating lessons learned back into the resource pool.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Cards Section -->
+<section id="cards" class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-12">Our Key Areas</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-gray-50 p-8 rounded-lg shadow-md text-center">
+                <h3 class="font-bold text-xl mb-4">Open-Source Toolkit</h3>
+                <p class="mb-4">A collection of tools and methods for regenerative systems.</p>
+                <a href="/toolkit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Learn More</a>
+            </div>
+            <div class="bg-gray-50 p-8 rounded-lg shadow-md text-center">
+                <h3 class="font-bold text-xl mb-4">Online Lab</h3>
+                <p class="mb-4">An experimental space for community-driven projects.</p>
+                <a href="/lab" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Explore</a>
+            </div>
+            <div class="bg-gray-50 p-8 rounded-lg shadow-md text-center">
+                <h3 class="font-bold text-xl mb-4">Community Initiatives</h3>
+                <p class="mb-4">Join us in building a network of regenerative communities.</p>
+                <a href="/about" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Get Involved</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action Section -->
+<section id="cta" class="py-20 bg-blue-600 text-white">
+    <div class="container mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold mb-4">Ready to start your journey?</h2>
+        <p class="mb-8">Explore our resources, join the conversation, and help us build a more regenerative future.</p>
+        <div class="flex justify-center space-x-4">
+            <a href="/about" class="bg-white hover:bg-gray-200 text-blue-600 font-bold py-3 px-6 rounded">About Semente</a>
+            <a href="https://github.com/semente-de/documentation" class="bg-gray-800 hover:bg-gray-900 text-white font-bold py-3 px-6 rounded">View Documentation</a>
+            <a href="mailto:info@semente.de" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded">Get in Touch</a>
+        </div>
+    </div>
+</section>
