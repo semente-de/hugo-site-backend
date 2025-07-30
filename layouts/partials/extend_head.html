@@ -1,2 +1,58 @@
 <link rel="manifest" href="/site.webmanifest">
+
+{{/* Tailwind CSS CDN */}}
 <script src="https://cdn.tailwindcss.com"></script>
+
+{{/* Google Fonts for Quicksand */}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+<style>
+    /* Apply Quicksand globally to all text */
+    body {
+        font-family: 'Quicksand', sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    /* Semente Brand Colors as CSS Variables */
+    :root {
+        --color-sowing-primary: #2374B7; /* Blue/Teal */
+        --color-sowing-dark: #0060A0;
+        --color-sowing-light: #4688B2;
+
+        --color-handling-primary: #9DAABE; /* Green/Mint */
+        --color-handling-dark: #77937B;
+        --color-handling-light: #B3C7B9;
+
+        --color-regeneration-primary: #BC7677; /* Pink/Rose */
+        --color-regeneration-dark: #A86A70;
+        --color-regeneration-light: #D5A6A7;
+
+        --color-compost-primary: #DEB41E; /* Yellow/Gold */
+        --color-compost-dark: #C8A800;
+        --color-compost-light: #F5D050;
+
+        --color-text-dark: #4A554A; /* Dark Green */
+        --color-text-light: #F9FAFB; /* Light Gray for contrast */
+        --color-background-light: #F9FAFB; /* Very light background */
+        --color-background-dark: #212121; /* Black/dark background */
+        --color-card-background: #FFFFFF; /* White for cards */
+    }
+
+    /* Basic dark mode adjustments (PaperMod handles much of this, but for custom sections) */
+    .dark {
+        --color-text-dark: #F9FAFB;
+        --color-text-light: #212121;
+        --color-background-light: #212121;
+        --color-background-dark: #1A1A1A; /* Slightly lighter dark for contrast */
+        --color-card-background: #2A2A2A;
+        /* Adjust primary colors for dark mode if desired, e.g.: */
+        --color-sowing-primary: #4688B2;
+        --color-handling-primary: #B3C7B9;
+        --color-regeneration-primary: #D5A6A7;
+        --color-compost-primary: #F5D050;
+    }
+</style>
