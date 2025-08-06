@@ -55,4 +55,14 @@
         --color-regeneration-primary: #D5A6A7;
         --color-compost-primary: #F5D050;
     }
+
+    /* Ensure images within content don't overflow if they're not in a Tailwind container */
+    .post-content img,
+    img:not([class*="w-"]) { /* Target images not explicitly sized by Tailwind */
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 </style>
