@@ -1,0 +1,57 @@
+{{ define "main" }}
+{{/* The <style> block defining :root variables has been removed from here.
+     It should now be in layouts/partials/extend_head.html for global access. */}}
+
+<div class="container mx-auto px-4 py-8 sm:px-6 lg:px-8 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 rounded-lg shadow-lg my-8">
+    <h1 class="text-4xl font-extrabold text-center mb-12 text-[var(--color-sowing-primary)]">Semente Color Palette</h1>
+
+    <p class="text-center text-lg mb-12 max-w-2xl mx-auto">
+        This page showcases the official color palette for semente, derived from our brand identity. Each color is associated with a specific phase or purpose within our framework.
+    </p>
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 justify-items-center">
+        {{ $colors := dict
+            "Sowing Primary" "var(--color-sowing-primary)"
+            "Sowing Dark" "var(--color-sowing-dark)"
+            "Sowing Light" "var(--color-sowing-light)"
+
+            "Handling Primary" "var(--color-handling-primary)"
+            "Handling Dark" "var(--color-handling-dark)"
+            "Handling Light" "var(--color-handling-light)"
+
+            "Regeneration Primary" "var(--color-regeneration-primary)"
+            "Regeneration Dark" "var(--color-regeneration-dark)"
+            "Regeneration Light" "var(--color-regeneration-light)"
+
+            "Compost Primary" "var(--color-compost-primary)"
+            "Compost Dark" "var(--color-compost-dark)"
+            "Compost Light" "var(--color-compost-light)"
+
+            "Text Dark" "var(--color-text-dark)"
+            "Text Light" "var(--color-text-light)"
+            "Background Light" "var(--color-background-light)"
+            "Background Dark" "var(--color-background-dark)"
+            "Card Background" "var(--color-card-background)"
+        }}
+
+        {{ range $name, $value := $colors }}
+        <div class="flex flex-col items-center">
+            <div class="w-28 h-28 sm:w-32 sm:h-32 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 flex items-center justify-center"
+                 style="background-color: {{ $value | safeCSS }};"> {{/* Changed to safeCSS */}}
+                {{ if eq $name "Text Dark" }}
+                    <span class="text-[var(--color-text-light)] text-xs font-semibold">Example</span>
+                {{ else if eq $name "Text Light" }}
+                    <span class="text-[var(--color-text-dark)] text-xs font-semibold">Example</span>
+                {{ else if eq $name "Background Dark" }}
+                    <span class="text-white text-xs font-semibold">Example</span>
+                {{ else }}
+                    <span class="text-white text-xs font-semibold mix-blend-difference">Example</span>
+                {{ end }}
+            </div>
+            <p class="mt-2 text-sm font-medium text-gray-700 dark:text-gray-300">{{ $name }}</p>
+            <p class="text-xs text-gray-500 dark:text-gray-400">{{ $value | replaceRE "var\\(--(.+)\\)" "$1" | replaceRE "color-" "" | replaceRE "-" " " | title }}</p> {{/* Extracts variable name */}}
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

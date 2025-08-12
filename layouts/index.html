@@ -1,0 +1,176 @@
+{{ define "main" }}
+
+<style>
+        /* Override PaperMod's main content width */
+    :root {
+        --main-width: 100%; /* Make content span full width by default */
+    }
+
+    /* Specific override for PaperMod's main content wrapper if it still applies fixed width */
+    /* This targets the .main class that PaperMod often uses for its content area */
+    .main {
+        max-width: 100% !important; /* Force full width */
+        padding-left: 0 !important; /* Remove default padding if present */
+        padding-right: 0 !important; /* Remove default padding if present */
+    }
+
+    /* For content that should be narrower within wide sections (like text blocks) */
+    .content-container { /* Re-using this class name for consistency */
+        max-width: 1280px; /* Equivalent to Tailwind's max-w-screen-xl */
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1rem; /* Add some horizontal padding */
+        padding-right: 1rem;
+    }
+</style>
+
+<div class="max-w-screen-xl mx-auto flex flex-col items-center justify-center bg-[var(--color-background-light)] text-[var(--color-text-dark)] p-4 sm:p-6 lg:p-8 relative">
+    <!-- Hero Section -->
+    <section class="w-full text-center">
+        {{ partial "home_info.html" . }}
+    </section>
+</div>
+
+<!-- Interloop Graphic and Descriptions Section -->
+<section class="w-full bg-[var(--color-background-light)] py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8">
+    <div id="time" class="max-w-screen-xl mx-auto text-[var(--color-text-dark)] mb-12"> {{/* Wider container for content */}}
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-center text-[var(--color-text-dark)] mb-12">
+            <strike>Timeline</strike> Time Cycles
+        </h2>
+        <p class="mb-4">
+            Using a vocabulary inspired by plants, gardening and permaculture, <em>semente</em> (Portuguese for "seed") proposes an alternative to rigid plannig modes that often allienate community members. Whether we are starting out, reorganising, or deepening work that is already underway, the method helps us reflect, adapt, and move forward. <em>Together</em>. Every cycle generates new seeds, shaped by what we constantly hope for, experience, and learn. The cyle never returns to a starting point. Instead, the whole community moves forward in a spiralled shape - what we call an <a href="#interloop" class="text-[var(--color-sowing-primary)] hover:underline">interloop</a> of time.
+        </p>
+    </div>
+    <div id="interloop-graphic-and-definitions" class="max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-10 mt-12">
+<!--        <div class="lg:w-1/2 w-full flex justify-center items-center p-2">
+            <div class="w-full max-w-sm h-auto bg-[var(--color-card-background)] rounded-lg shadow-xl flex items-center justify-center">
+                <img src="{{ .Site.BaseURL }}img/interloop.png" alt="Interloop Graphic" class="w-full h-auto object-contain rounded-lg">
+            </div>
+        </div> 
+-->
+        <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-5">
+            <div class="description-box bg-[var(--color-card-background)] p-5 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-lg font-semibold text-[var(--color-text-dark)] mb-1.5">1. Seeds: The Origin</h3>
+                <p class="text-[var(--color-text-dark)] text-sm">Our journey begins with the seed, representing the initial ideas, resources, and potential from which everything springs.</p>
+            </div>
+            <div class="description-box bg-[var(--color-card-background)] p-5 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-lg font-semibold text-[var(--color-sowing-primary)] mb-1.5">2. Soil: Grounding Principles</h3>
+                <p class="text-[var(--color-text-dark)] text-sm">The soil symbolizes the foundational principles and fertile environment necessary for growth and development.</p>
+            </div>
+            <div class="description-box bg-[var(--color-card-background)] p-5 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-lg font-semibold text-[var(--color-sowing-primary)] mb-1.5">3. Sowing: Initial Action</h3>
+                <p class="text-[var(--color-text-dark)] text-sm">This step is about actively sowing the seeds – initiating projects, sharing knowledge, and taking the first concrete steps.</p>
+            </div>
+            <div class="description-box bg-[var(--color-card-background)] p-5 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-lg font-semibold text-[var(--color-handling-dark)] mb-1.5">4. Seedling: Emergence</h3>
+                <p class="text-[var(--color-text-dark)] text-sm">The seedling represents the early stages of growth, where new initiatives take root and begin to show promise.</p>
+            </div>
+            <div class="description-box bg-[var(--color-card-background)] p-5 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-lg font-semibold text-[var(--color-handling-dark)] mb-1.5">5. Tending: Nurturing Growth</h3>
+                <p class="text-[var(--color-text-dark)] text-sm">Tending involves the continuous care, adaptation, and collaborative effort required to nurture projects and community.</p>
+            </div>
+            <div class="description-box bg-[var(--color-card-background)] p-5 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-lg font-semibold text-[var(--color-regeneration-primary)] mb-1.5">6. Fruits: Realized Impact</h3>
+                <p class="text-[var(--color-text-dark)] text-sm">The fruits symbolize the tangible outcomes, positive impacts, and successful results achieved through our collective work.</p>
+            </div>
+            <div class="description-box bg-[var(--color-card-background)] p-5 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-xl font-semibold text-[var(--color-regeneration-primary)] mb-1.5">7. Silo: Knowledge & Storage</h3>
+                <p class="text-[var(--color-text-dark)] text-sm">The silo represents the collection, organization, and storage of knowledge, data, and best practices for future use.</p>
+            </div>
+            <div class="description-box bg-[var(--color-card-background)] p-5 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-xl font-semibold text-[var(--color-text-dark)] mb-1.5">8. New Seeds: New Cycles</h3>
+                <p class="text-[var(--color-text-dark)] text-sm">From the silo, insights and resources feed back into the seedbag, initiating new cycles of innovation and development.</p>
+            </div>
+            <div class="description-box bg-[var(--color-card-background)] p-5 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-xl font-semibold text-[var(--color-compost-primary)] mb-1.5">9. Composter: Regeneration</h3>
+                <p class="text-[var(--color-text-dark)] text-sm">Composting means the process of transforming waste into valuable resources, embodying regeneration and circularity.</p>
+            </div>
+             <div class="description-box bg-[var(--color-card-background)] p-5 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h3 class="text-xl font-semibold text-[var(--color-text-dark)] mb-1.5">10. Back to the Seedbag: Continuous Renewal</h3>
+                <p class="text-[var(--color-text-dark)] text-sm">The compost enriches the seedbag, ensuring continuous renewal and a vibrant foundation for all future endeavors.</p>
+            </div>           
+        </div>
+    </div>
+        <div align="center">
+        <a href="#interloop">
+        <div class="mt-8 animate-bounce text-[var(--color-sowing-dark)]">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-8 h-8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+            </svg>
+        </div>
+        </a>
+        </div>
+        </div>
+</section>
+
+<!-- Interloop/Video Section 
+<section class="w-full bg-[var(--color-background-light)]  px-4 sm:px-6 lg:px-8">
+    <div id="interloop" class="max-w-screen-xl mx-auto text-center">
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[var(--color-sowing-primary)] mb-12">The Interloop</h2>
+        <div class="video-container relative w-full overflow-hidden rounded-lg shadow-xl" style="padding-top: 56.25%;"> {{/* 16:9 Aspect Ratio */}}
+            <iframe class="absolute top-0 left-0 w-full h-full" src="https://www.youtube.com/embed/QZ5N1hMrrU4?si=lH1zp6aVzDo9S0_6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div align="center">
+        <a href="#learn-more">
+        <div class="mt-8 animate-bounce text-[var(--color-handling-dark)]">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-8 h-8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+            </svg>
+        </div>
+        </a>
+        </div>
+        </div>
+</section>
+
+-->
+
+<!-- Cards Section -->
+<section class="w-full bg-[var(--color-background-light)] py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8">
+    <div id="learn-more" class="max-w-screen-xl mx-auto text-center"> {{/* Wider container for content */}}
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[var(--color-handling-dark)] mb-12">The method</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="card bg-[var(--color-card-background)] p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <h3 class="text-2xl font-semibold text-[var(--color-handling-dark)] mb-4">About semente</h3>
+                <p class="text-[var(--color-text-dark)] mb-6">The origins and setting of semente.</p>
+                <a href="/about" class="inline-block px-6 py-3 bg-[var(--color-text-dark)] text-[var(--color-text-light)] rounded-full shadow-md hover:bg-[var(--color-handling-light)] hover:text-[var(--color-text-dark)] transition-colors duration-300 font-medium">Learn More</a>
+            </div>
+            <div class="card bg-[var(--color-card-background)] p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <h3 class="text-2xl font-semibold text-[var(--color-handling-dark)] mb-4">Open-Source Toolkit</h3>
+                <p class="text-[var(--color-text-dark)] mb-6">Access and contribute to our collection of tools and methods for regenerative systems.</p>
+                <a href="/toolkit" class="inline-block px-6 py-3 bg-[var(--color-text-dark)] text-[var(--color-text-light)] rounded-full shadow-md hover:bg-[var(--color-handling-light)] hover:text-[var(--color-text-dark)] transition-colors duration-300 font-medium">Explore</a>
+            </div>
+            <div class="card bg-[var(--color-card-background)] p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <h3 class="text-2xl font-semibold text-[var(--color-handling-dark)] mb-4">Online Lab</h3>
+                <p class="text-[var(--color-text-dark)] mb-6">Read notes and insights about the development of semente.</p>
+                <a href="/lab" class="inline-block px-6 py-3 bg-[var(--color-text-dark)] text-[var(--color-text-light)] rounded-full shadow-md hover:bg-[var(--color-handling-light)] hover:text-[var(--color-text-dark)] transition-colors duration-300 font-medium">Access</a>
+            </div>
+        </div>
+    </div>
+    <div align="center">
+        <a href="#action">
+        <div class="mt-8 animate-bounce text-[var(--color-regeneration-dark)]">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-8 h-8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+            </svg>
+        </div>
+        </a>
+        </div>
+        </div>
+</section>
+
+
+<!-- Call to Action Section -->
+<section class="w-full bg-[var(--color-regeneration-dark)] text-[var(--color-text-light)] py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8">
+    <div id="action" class="max-w-4xl mx-auto text-center"> {{/* Kept max-w-4xl for this specific text block */}}
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-6">Ready to Transform Your Community?</h2>
+        <p class="text-lg sm:text-xl mb-10">Dive deeper into our philosophy, explore our documentation, or get involved directly.</p>
+        <div class="flex flex-wrap justify-center gap-6">
+             <a href="/contact" class="px-8 py-4 bg-[var(--color-background-light)] text-[var(--color-regeneration-dark)] rounded-full shadow-lg hover:bg-[var(--color-regeneration-light)] transition-colors duration-300 text-xl font-semibold">Get in Touch</a>
+             <a href="" class="px-8 py-4 bg-[var(--color-background-light)] text-[var(--color-regeneration-dark)] rounded-full shadow-lg hover:bg-[var(--color-regeneration-light)] transition-colors duration-300 text-xl font-semibold">Try the Toolkit on Figma</a>
+            <a href="https://github.com/semente-de/documentation" target="_blank" rel="noopener noreferrer" class="px-8 py-4 bg-[var(--color-background-light)] text-[var(--color-regeneration-dark)] rounded-full shadow-lg hover:bg-[var(--color-regeneration-light)] transition-colors duration-300 text-xl font-semibold">View Documentation on GitHub</a>
+        </div>
+    </div>
+</section>
+
+{{ end }}
